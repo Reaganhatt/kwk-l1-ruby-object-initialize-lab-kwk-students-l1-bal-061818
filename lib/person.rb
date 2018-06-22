@@ -1,6 +1,5 @@
 class Person
   def initialize(name)
-    @name = gets.chomp
-    puts "I'm #{name}"
+    @name = name
   end
 end
